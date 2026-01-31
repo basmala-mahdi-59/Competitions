@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../Media/Sec1-BG.webp);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling the registration section */
+section {
+    width: 600px;
+    
+    padding: 40px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Adding hover effect to buttons */
+.Play {
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.Play a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f9e6a5;
+    color: #000000;
+    text-decoration: none;
+    /* font-weight: bold; */
+    width: 150px;
+    /* border: #000000 2px solid; */
+
+    
+}
+
+.Play a:hover {
+    background-color: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+}
+
+
+/* Headings */
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #f9e6a5;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+}
+
+/* Div and Member Information */
+div {
+    font-size: 1em;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: left;
+    color: #000000;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 500px) {
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}

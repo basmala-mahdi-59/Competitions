@@ -1,0 +1,99 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../Media/Sec1-BG.webp);
+    background-size: cover;
+}
+
+form {
+    width: 1000px;
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* form:hover {
+    transform: scale(1.05);
+} */
+
+.Form-Tittle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #f9e6a5;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: block;
+    color: #1b1b1b;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    color: #333;
+    font-size: 1em;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9e6a5;
+    color: #0a0a0a;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+}
+
+.individual-form, .team-form {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+    form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .Form-Tittle {
+        font-size: 1.2em;
+    }
+}

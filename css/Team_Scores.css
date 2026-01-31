@@ -1,0 +1,118 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../Media/Sec1-BG.webp);
+    background-size: cover;
+    color: #0b0b0b;
+}
+
+
+
+h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #f9e6a5;
+    
+}
+
+form
+{
+    width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+input
+{
+    /* width: 100%; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9e6a5;
+    color: #0b0b0b;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+input:hover
+{
+    background-color: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+}
+
+div
+{
+    width: 75%;
+    background-color: #ffff;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: #0b0b0b;
+    
+}
+
+h3
+{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.Play  a
+{
+    /* width: 100%; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9e6a5;
+    color: #0b0b0b;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    text-decoration: none;
+    margin: auto;
+   
+}
+
+.Play
+{
+    background-color: transparent;
+    border: none;
+    /* width: 100%; */
+    margin-left: 41%;
+     margin-bottom: 20px;
+     margin-top: 30px;
+
+}
+
+.Play  a:hover
+{
+    background-color: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+}

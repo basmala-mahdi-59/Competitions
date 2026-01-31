@@ -1,0 +1,230 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    /* font-size: 10px; */
+}
+
+
+
+/* Strat Nav_2 */
+#Nav-2
+{
+    background-color:#f9e6a5;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding-top: 20px;
+   
+    
+}
+
+.Nav-2-Items-2 a
+{
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+/* 
+#Nav-2 a
+{
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+} */
+
+.Nav-2-Brand
+{
+    margin-right: 80px;
+    font-size: 40px;
+    /* margin-top: -100; */
+
+}
+
+
+.Nav-2-Items-2 a
+{
+    margin-right: 30px;
+}
+
+#Nav-2  a:hover
+{
+    text-decoration: underline;
+}
+
+#Nav-2  a:hover
+{
+    text-decoration: underline;
+}
+
+.Nav-2-Items-2
+{
+    display: flex;
+    /* margin-top: -15px; */
+    justify-content: end;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 16px;
+    
+}
+
+.Nav-2-Item-2
+{
+    margin-right: 30px;
+}
+
+/* End Nav_2 */
+
+
+
+/* Strat Section-1 */
+#Sec-1
+{
+    background-image: url(../Media/Sec1-BG.webp);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+     object-fit: cover;
+    object-position: 100% 100%; 
+}
+
+.Sec-1-Tittle
+{
+    font-size: 100px;
+    color: #f9e6a5;
+    margin-left: 50px;
+    padding-top: 50px;
+
+}
+
+
+.Sec-1-BTN
+{
+    background-color: #f9e6a5;
+    border: #f9e6a5;
+    border-radius: 40px;
+    font-size: 17px;
+    width: 240px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 40px;
+  
+    
+}
+
+#Sec-1 a
+{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+/* #Sec-1 a:hover
+{
+    color: #beb080;
+} */
+
+.Sec-1-BTN:hover 
+{
+    background-color: transparent;
+    color: #000000;
+    border: #000000 2px solid;
+}
+/* End Section-1 */
+
+
+
+
+/* Start Footer */
+footer
+{
+    background-color: #f9e6a5; 
+    color: #000000;
+    padding: 20px;
+    font-size: 14px;
+    padding-left: 100px;
+    /* padding-right: 20px; */
+}
+
+footer form
+{
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+
+.Visit-Us
+{
+    margin-left: 10px;
+    
+}
+
+.Footer-Cont
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Footer-Visits, .Footer-Time, .Social-Media, .Communication
+{
+    margin-top: 30px;
+}
+
+
+footer form input[type="email"]
+{
+    background-color: transparent;
+    border: #000000 1px solid;
+    height: 25px;
+    margin-right: 15px;
+}
+
+footer form input[type="checkbox"]
+{
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+footer form button
+{
+    padding: 5px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: #000000;
+    font-size: 16px;
+}
+
+footer form button:hover
+{
+    
+    background-color: #01802E;
+    color: #FFF7D8;
+    
+   
+}
+
+.footer-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a
+{
+    margin: 0 10px;
+    margin-top: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.End-Footer
+{
+    text-align: center;
+    margin-top: 10px;
+}
+/* End Footer */

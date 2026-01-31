@@ -1,0 +1,96 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../Media/Sec1-BG.webp);
+    background-size: cover;
+    color: #000000;
+}
+
+/* Glassmorphic section container for score display */
+section {
+    width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title for the score section */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #f9e6a5;
+}
+
+/* Individual and team information styling */
+div {
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #000000;
+    text-align: left;
+}
+
+/* Buttons for navigation */
+.Play a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    background-color: #f9e6a5;
+    color: #0a0a0a;
+    text-decoration: none;
+    /* font-weight: bold; */
+    transition: background-color 0.3s ease;
+}
+
+.Play
+{
+    background-color: transparent;
+    border: none;
+}
+
+.Play a:hover {
+    background-color: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 500px) {
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
